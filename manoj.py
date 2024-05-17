@@ -1,1 +1,4 @@
-print("domalamanoj")
+print("domala manoj")
+
+
+print ("manoj")

@@ -1,0 +1,1 @@
+print("this is manoj","my age is",24)

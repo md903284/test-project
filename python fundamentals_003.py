@@ -96,12 +96,191 @@ second = 15
 
 print (first+second)
 
-#  Vowels
-text = "my name is manoj and my age is", 25
-
-if (text='a' or text = 'e'):
-    print(text)
 
 
+#list
+
+l = list()
+print (type(l))
 
 
+l1 = [1,6,8,2]
+print(type(l1))
+
+l = [1,2,3,4,5,6,7,9]
+print(len(l))
+
+
+l = [1,2,3,4,5,6,7,9]
+l[0:3]
+print(len(l))
+
+
+name= [200,300,700,500]
+print(name.count(100))
+
+# index 
+
+name= [200,300,700,500]
+print(name.index(500))
+
+# pop
+
+name= [200,300,700,500]
+print(name.remove(200))
+
+
+l = [1,2,3,4,5]
+l.append("manu")
+print (l)
+
+l = [1,2,3,4,5, "manu"]
+l1 = [6,7]
+l.append(l1)
+print (l)
+
+
+# dictionary
+
+d = {}
+print (type(d))
+print (d)
+
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+print (type(d))
+print (pets)
+
+#zip
+
+name = ["dog", "rat", "cat"]
+prices = [12,13,15]
+pets = dict(zip(name, prices))
+print (pets)
+
+
+name = ["dog", "rat", "cat"]
+prices = [12,13,15]
+pets = dict(zip(name, prices))
+print (len(pets))
+
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+print (pets["dog"])
+print (pets["rat"])
+
+# method
+name = ["dog", "rat", "cat"]
+prices = [12,13,15]
+print (pets.get("dog"))
+print (pets.get("cat"))
+
+# Updating dictionary
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+
+pets ["dog"] = {"puppy": 50, "adult" : 100}
+print (pets)
+
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+
+pets ["dog"] = {"puppy": 50, "adult" : 100}
+pets ["rabbit"]= 80
+print (pets)
+
+# new dictionary
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+new= {"pig" : 2, "bird" : 5}
+pets ["dog"] = {"puppy": 50, "adult" : 100}
+pets ["rabbit"]= 80
+pets.update(new)
+print (pets)
+
+
+# Deletion Operations in Dictionary
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+
+pets.pop("dog")
+print (pets)
+
+# pop item 
+
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+
+pets.popitem()
+print (pets)
+pets.popitem()
+print (pets)
+pets.popitem()
+print (pets)
+
+
+ #Iteration in Dictionary
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+for i in pets :
+    print(i , pets[i], end=" ")
+
+# More Dictionary Methods
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+pets.keys()
+print (pets)
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+pets.values()
+print (pets)
+
+
+
+pets = {
+    "dog" : 12,
+    "cat" : 13,
+    "rat" : 15
+}
+pets.items()
+print (pets)

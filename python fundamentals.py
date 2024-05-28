@@ -121,6 +121,6 @@ age = int (input())
 # check if age is > 18
 if age > 18:
     #if age is >= 65
-    if age is >= 65
+    if age is  >= 65
         print ("take rest")
 

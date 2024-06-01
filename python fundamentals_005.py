@@ -62,16 +62,6 @@ def intro (name,hobby= "gaming"):
 intro ("manoj")
 
 
-with open("new.tex", "w") as f :
-    f.write ("new file created")
-
-
-
-
-
-
-
-
 def intro (name,hobby= "gaming", age = 24):
     print("my name is", name)
     print ("my hobby is", hobby)

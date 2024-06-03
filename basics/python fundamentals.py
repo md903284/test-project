@@ -106,7 +106,7 @@ not True
 print(not True)
 
 
-age = int (input())
+ age = int(input())
 
 # Now use if else
 if age > 18:
@@ -121,6 +121,6 @@ age = int (input())
 # check if age is > 18
 if age > 18:
     #if age is >= 65
-    if age is  >= 65
+     #if age is  >= 65
         print ("take rest")
 
